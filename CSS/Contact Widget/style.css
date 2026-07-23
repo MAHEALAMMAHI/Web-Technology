@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.contact-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 15px;
+    z-index: 1000;
+    border-radius: 8px;
+}
+
+.contact-box:hover {
+    background-color: lightgreen;
+}
+
+.contact-box a {
+    text-decoration: none;
+    color: blue;
+}
